@@ -9,7 +9,7 @@ function Navbar({ groupBy, sortOption, onGroupByChange, onSortOptionChange }) {
   };
 
   return (
-    <nav className="navbar">
+    <nav className="navbar ">
       <div className="navbar-inner">
         <div
           className={`display-button-container ${showDisplayBox ? "show" : ""}`}
