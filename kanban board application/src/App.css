@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:rgba(245,245,249,255) !important;
+    background-color:rgba(245,245,249,255);
     position: absolute;
     top: 0;
     bottom: 0;
