@@ -108,7 +108,7 @@ function App() {
 
   return (
     <>
-      <body className="kanban-board">
+      <div className="kanban-board">
         {!isLoading && !loadingSavedState && (
           <Navbar
             groupBy={groupBy}
@@ -141,7 +141,7 @@ function App() {
             )}
           </>
         )}
-      </body>
+      </div>
     </>
   );
 }
