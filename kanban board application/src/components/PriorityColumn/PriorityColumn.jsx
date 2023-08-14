@@ -1,6 +1,6 @@
 import React from "react";
 import "./PriorityColumn.css"
-import TicketCard from "./TicketCard";
+import TicketCard from "../TicketCard/TicketCard";
 
 function formatTitle(title) {
   return title

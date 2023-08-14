@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css"
-import PriorityColumn from "./components/PriorityColumn";
-import Navbar from "./components/NavBAr";
+import PriorityColumn from "./components/PriorityColumn/PriorityColumn";
+import Navbar from "./components/NavBar/NavBar";
 function App() {
   const [tasks, setTasks] = useState([]);
   const [users, setUsers] = useState([]);
