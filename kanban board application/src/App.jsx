@@ -1,5 +1,5 @@
-import "./App.css";
 import React, { useState, useEffect } from "react";
+import "./App.css"
 import PriorityColumn from "./components/PriorityColumn";
 import Navbar from "./components/NavBAr";
 function App() {
